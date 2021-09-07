@@ -14,5 +14,5 @@ import { ButtonComponent } from './button.component';
   ]
 })
 export class ButtonModule { 
-  public vary:any = "button works !!!!"
+  public vary:any = "button works !!"
 }
