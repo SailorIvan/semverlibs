@@ -8,6 +8,16 @@
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "button": [
+        "dist/button/button",
+        "dist/button"
+      ],
+      "input": [
+        "dist/input/input",
+        "dist/input"
+      ]
+    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
