@@ -26,6 +26,8 @@
     "@angular-devkit/build-angular": "~12.2.4",
     "@angular/cli": "~12.2.4",
     "@angular/compiler-cli": "~12.2.0",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
     "cz-conventional-changelog": "^3.3.0",
@@ -45,7 +47,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "husky":{
+  "husky": {
     "hooks": {
       "commit-msg": "echo $HUSKY_GIT_PARAMS"
     }
