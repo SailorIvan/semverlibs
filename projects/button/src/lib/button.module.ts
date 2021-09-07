@@ -13,4 +13,6 @@ import { ButtonComponent } from './button.component';
     ButtonComponent
   ]
 })
-export class ButtonModule { }
+export class ButtonModule { 
+  public vary:any = "button works"
+}
